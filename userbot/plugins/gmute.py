@@ -59,7 +59,7 @@ async def startgmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully putted Duct Tape on that person's mouth")
+        await event.edit("Successfully placed Duct Tape on that person's mouth")
 
 #@command(outgoing=True, pattern=r"^.ungmute ?(\d+)?")
 @borg.on(admin_cmd(pattern=r"ungmute ?(\d+)?"))
